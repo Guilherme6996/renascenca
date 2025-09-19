@@ -1,0 +1,94 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "nome": "Charles Batista",
+      "altura": 1.62,
+      "organização": "Congresso",
+      "descricao": "Jovem rico atualmente trabalhando.",
+      "imagem": "charles"
+    },
+
+       {
+      "id": 2,
+      "nome": "Vander Almerick",
+      "altura": 1.85,
+      "organização": "Congresso",
+      "descricao": "perseguido pela cidade K.",
+      "imagem": "vander"
+    },
+  {
+      "id": 3,
+      "nome": "Ryujin Yamamoto",
+      "altura": 1.80,
+      "organização": "Congresso",
+      "descricao": "GÊNIO ALÉM DO SEU TEMPO.",
+      "imagem": "ryujin"
+    },
+    
+       {
+      "id": 4,
+      "nome": "Alden Pudding",
+      "altura": 1.90,
+      "organização": "Congresso",
+      "descricao": "MENDINGO FUDIDO.",
+      "imagem": "alden"
+    },
+       {
+      "id": 5,
+      "nome": "Elaine Gregory",
+      "altura": 1.80,
+      "organização": "Congresso",
+      "descricao": "abençoada.",
+      "imagem": "elaine"
+    },
+     {
+      "id": 6,
+      "nome": "Hugo Perlman",
+      "altura": 1.73,
+      "organização": "Congresso",
+      "descricao": "Nosso mano foda.",
+      "imagem": "hugo"
+    },
+     {
+      "id": 7,
+      "nome": "Dona Kimika",
+      "altura": "?",
+      "organização": "mafia",
+      "descricao": "Dona da lojinha de gomi.",
+      "imagem": "kimika"
+    },
+     {
+      "id": 8,
+      "nome": "Kiwi",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "?.",
+      "imagem": "kiwi"
+    },
+    {
+      "id": 9,
+      "nome": "Doc",
+      "altura": "1,61",
+      "organização": "Nenhum.",
+      "descricao": "Medicânico de gomi.",
+      "imagem": "doc"
+    },
+    {
+      "id": 10,
+      "nome": "Gojo Satoru",
+      "altura": "1,93",
+      "organização": "Congresso",
+      "descricao": "Natural FODA.",
+      "imagem": "gojo"
+    },
+    {
+      "id": 11,
+      "nome": "Kaizo",
+      "altura": "?",
+      "organização": "Nenhum.",
+      "descricao": "fudido atrapalhou a missão.",
+      "imagem": "kaizo"
+    }
+  ]
+}

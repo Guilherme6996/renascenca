@@ -1,0 +1,12 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "nome": "Charles Batista",
+      "altura": 1.62,
+      "organização": "Congresso",
+      "descricao": "Jovem rico atualmente trabalhando.",
+      "imagem": ""
+    }
+  ]
+}

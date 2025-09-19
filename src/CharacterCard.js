@@ -1,4 +1,3 @@
-// CharacterCard.js
 import React, { useState } from "react";
 import "./CharacterCard.css";
 
@@ -8,25 +7,24 @@ function CharacterCard({ nome, altura, organizacao, descricao, imagem, index }) 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);
 
-  // Normaliza o nome da organização (sem acento, minúsculo)
+  // Função para fechar o modal ao clicar no fundo escuro (overlay)
+  const handleOverlayClick = (e) => {
+    if (e.target === e.currentTarget) {
+      closeModal();
+    }
+  };
+
   const orgClass = organizacao
     ? organizacao.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-")
     : "";
 
-  // Classes dinâmicas
-  const cardClass =
-    index < 5
-      ? `card main-character`
-      : `card ${orgClass}`;
-  const modalClass =
-    index < 5
-      ? `modal-content modal-main-character`
-      : `modal-content ${orgClass}`;
+  const cardClass = index < 5 ? `card main-character` : `card ${orgClass}`;
+  const modalClass = index < 5 ? `modal-content modal-main-character` : `modal-content ${orgClass}`;
 
   return (
     <>
-      {/* Card principal */}
-      <div className={cardClass}>
+      {/* Card do Personagem */}
+      <div className={cardClass} onClick={openModal}>
         <img
           src={imagem || "/images/default.png"}
           alt={nome}
@@ -37,14 +35,17 @@ function CharacterCard({ nome, altura, organizacao, descricao, imagem, index }) 
       </div>
 
       {/* Modal */}
-      <div className={`modal-overlay ${isModalOpen ? "open" : ""}`}>
+      <div
+        className={`modal-overlay ${isModalOpen ? "open" : ""}`}
+        onClick={handleOverlayClick}
+      >
         <div className={modalClass}>
           <img
             src={imagem || "/images/default.png"}
             alt={nome}
             className="modal-image"
           />
-          <div className="modal-info main-text">
+          <div className="modal-info">
             <h2>{nome}</h2>
             <p>
               <strong>Altura:</strong> {altura}
@@ -55,7 +56,7 @@ function CharacterCard({ nome, altura, organizacao, descricao, imagem, index }) 
             <p className="subtitle">
               <strong>Descrição:</strong> {descricao}
             </p>
-            <button className="close-btn" onClick={closeModal}>
+            <button onClick={closeModal}>
               Fechar
             </button>
           </div>

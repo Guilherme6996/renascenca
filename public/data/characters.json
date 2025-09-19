@@ -8,36 +8,34 @@
       "descricao": "Jovem rico atualmente trabalhando.",
       "imagem": "charles"
     },
-
-       {
+    {
       "id": 2,
       "nome": "Vander Almerick",
-      "altura": 1.85,
+      "altura": 1.86,
       "organização": "Congresso",
       "descricao": "perseguido pela cidade K.",
       "imagem": "vander"
     },
-  {
+    {
       "id": 3,
       "nome": "Ryujin Yamamoto",
-      "altura": 1.80,
+      "altura": "-7,00 abaixo da terra (1.73)",
       "organização": "Congresso",
       "descricao": "GÊNIO ALÉM DO SEU TEMPO.",
       "imagem": "ryujin"
     },
-    
-       {
+    {
       "id": 4,
       "nome": "Alden Pudding",
-      "altura": 1.90,
+      "altura": 1.80,
       "organização": "Congresso",
-      "descricao": "MENDINGO FUDIDO.",
+      "descricao": "Inútil, Não amado pelos pais, vagabundo e só fode a vida dos outros 👍.",
       "imagem": "alden"
     },
-       {
+    {
       "id": 5,
       "nome": "Elaine Gregory",
-      "altura": 1.80,
+      "altura": 1.76,
       "organização": "Congresso",
       "descricao": "abençoada.",
       "imagem": "elaine"
@@ -62,8 +60,8 @@
       "id": 8,
       "nome": "Kiwi",
       "altura": "?",
-      "organização": "Congresso",
-      "descricao": "?.",
+      "organização": "Nenhum.",
+      "descricao": "sla.",
       "imagem": "kiwi"
     },
     {
@@ -86,9 +84,57 @@
       "id": 11,
       "nome": "Kaizo",
       "altura": "?",
-      "organização": "Nenhum.",
+      "organização": "mafia",
       "descricao": "fudido atrapalhou a missão.",
       "imagem": "kaizo"
+    },
+    {
+      "id": 12,
+      "nome": "Osluer Pietrovk",
+      "altura": "?",
+      "organização": "Nenhum.",
+      "descricao": "Bigode 2.",
+      "imagem": "osluer"
+    },
+    {
+      "id": 13,
+      "nome": "Reiko Browly",
+      "altura": "1,87",
+      "organização": "Nenhum.",
+      "descricao": "Cariani.",
+      "imagem": "reiko"
+    },
+    {
+      "id": 14,
+      "nome": "Sigma",
+      "altura": "?",
+      "organização": "Elliot.",
+      "descricao": "TOP 1 DO SERVIDOR.",
+      "imagem": "sigma"
+    },
+    {
+      "id": 15,
+      "nome": "Elliot",
+      "altura": "?",
+      "organização": "Nenhum.",
+      "descricao": "Dono da lojinha.",
+      "imagem": "elliot"
+    },
+    {
+      "id": 16,
+      "nome": "Viktor Vektor",
+      "altura": "?",
+      "organização": "Nenhum.",
+      "descricao": "Medicânico foda de shijeka.",
+      "imagem": "viktor"
+    },
+    {
+      "id": 17,
+      "nome": "Sayaka Sasaki",
+      "altura": "1.87",
+      "organização": "Nenhum.",
+      "descricao": "Familia cheia de controvérsias.",
+      "imagem": "sayaka"
     }
   ]
 }

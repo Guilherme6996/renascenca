@@ -9,32 +9,54 @@ html, body {
   height: 100%;
   background: linear-gradient(to bottom, #0f1125, #0d0d1c);
   color: white;
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* ---------- Aplicação ---------- */
 .app {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 1rem;
   min-height: 100vh;
 }
 
-/* ---------- Header ---------- */
-.app-header {
-  margin-bottom: 2rem;
+/* ---------- Cabeçalho Simples ---------- */
+.page-header {
+  margin-bottom: 2.5rem; /* Espaço entre o subtítulo e os cards */
 }
 
-.header-content {
+/* Novo container para o título e ícone */
+.title-and-icon-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
+  align-items: center; /* Alinha verticalmente título e ícone */
+  justify-content: center; /* Centraliza o bloco todo */
+  gap: 15px; /* Espaço entre o título e o ícone */
+  margin-bottom: 0.5rem; /* Espaço entre o título/ícone e o subtítulo */
 }
 
+.page-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  /* margin-bottom: 0.5rem; <-- REMOVIDO, agora controlado pelo gap do container */
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #d4d4d4;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Estilo e Animação do Ícone Giratório */
 .rotating-icon {
-  width: 50px;
+  width: 50px; /* Tamanho ajustado para ficar ao lado do título */
   height: 50px;
-  animation: spin 5s linear infinite;
+  animation: spin 8s linear infinite; /* Animação de giro */
+  filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.5)); /* Sombra para destacar */
 }
 
 @keyframes spin {
@@ -42,59 +64,14 @@ html, body {
   to { transform: rotate(360deg); }
 }
 
+
 /* ---------- Cards ---------- */
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1.5rem;
-}
-
-/* ---------- Card individual ---------- */
-.card {
-  background: #000;
-  border: 1px solid rgba(255,255,255,0.1);
-  border-radius: 12px;
-  padding: 1rem;
-  width: 260px;
-  color: #f0f0f0;
-  text-align: center;
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-.card:hover {
-  transform: scale(1.03);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.8);
-}
-
-.card-image {
-  width: 100%;
-  height: 280px;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-bottom: 1rem;
-}
-
-.card h2 {
-  margin: 0.5rem 0;
-  font-size: 1.2rem;
-  font-weight: bold;
-}
-
-.card button {
-  margin-top: 1rem;
-  background-color: #3a3f7d;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-weight: bold;
-  transition: background-color 0.2s;
-}
-
-.card button:hover {
-  background-color: #5056a5;
+  padding: 0 1rem;
 }
 
 /* ---------- Modal ---------- */
@@ -132,6 +109,7 @@ html, body {
   align-items: center;
   transform: translateY(-50px);
   transition: transform 0.3s ease;
+  border: 1px solid rgba(255, 215, 0, 0.3);
 }
 
 .modal-overlay.open .modal-content {
@@ -143,6 +121,7 @@ html, body {
   height: auto;
   border-radius: 10px;
   object-fit: cover;
+  border: 2px solid rgba(255, 215, 0, 0.5);
 }
 
 .modal-info {
@@ -150,6 +129,14 @@ html, body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+.modal-descricao {
+  font-size: 0.9rem;
+  color: #ccc;
+  margin: 0.8rem 0;
+  line-height: 1.4;
+  text-align: left;
 }
 
 .modal-info button {
@@ -161,6 +148,7 @@ html, body {
   border-radius: 6px;
   cursor: pointer;
   transition: background-color 0.2s;
+  align-self: center;
 }
 
 .modal-info button:hover {
@@ -176,26 +164,26 @@ html, body {
 
 /* ---------- Responsividade ---------- */
 @media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+  }
+  
+  .title-and-icon-container {
+    flex-direction: column; /* Em telas pequenas, título e ícone empilham */
+    gap: 10px;
+  }
+
   .modal-content {
     width: 95%;
     padding: 1rem;
+    flex-direction: column;
   }
 
   .modal-image {
     width: 140px;
-  }
-
-  .card {
-    width: 90%;
-  }
-
-  .header-content {
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .rotating-icon {
-    width: 40px;
-    height: 40px;
   }
 }

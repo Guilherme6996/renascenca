@@ -14,6 +14,12 @@ const imageMap = {
   doc: "/images/doc.png",
   kaizo: "/images/kaizo.png",
   gojo: "/images/gojo.png",
+  sigma: "/images/sigma.png",
+  reiko: "/images/reiko.png",
+  osluer: "/images/osluer.png",
+  sayaka: "/images/sayaka.png",
+  viktor: "/images/viktor.png",
+  elliot: "/images/elliot.png",
 };
 
 function App() {
@@ -21,31 +27,34 @@ function App() {
 
   useEffect(() => {
     fetch("/data/characters.json")
-      .then(res => res.json())
-      .then(data => setCharacters(data.characters))
-      .catch(err => console.error("Erro ao carregar JSON:", err));
+      .then((res) => res.json())
+      .then((data) => setCharacters(data.characters))
+      .catch((err) => console.error("Erro ao carregar JSON:", err));
   }, []);
 
   return (
     <div className="app">
-      <header className="app-header">
-        <div className="header-content">
-          <h1>Personagens de Renascença</h1>
+      <div className="page-header">
+        {/* NOVO CONTAINER PARA TÍTULO E ÍCONE */}
+        <div className="title-and-icon-container">
+          <h1 className="page-title">Personagens de Renascença</h1>
           <img src="/images/icone.png" alt="Ícone" className="rotating-icon" />
         </div>
-        <p>Finalmente fiz esse site do les go.</p>
-      </header>
+        <p className="page-subtitle">
+          Finalmente fiz esse site lesgo
+        </p>
+      </div>
 
       <div className="card-container">
         {characters.map((char, index) => (
           <CharacterCard
             key={char.id}
-            index={index}
             nome={char.nome}
             altura={char.altura}
             organizacao={char.organização}
             descricao={char.descricao}
             imagem={imageMap[char.imagem.toLowerCase()] || "/images/default.png"}
+            index={index}
           />
         ))}
       </div>

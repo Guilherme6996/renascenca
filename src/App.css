@@ -1,0 +1,140 @@
+/* ---------- Reset e base ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: linear-gradient(to bottom, #0f1125, #0d0d1c);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---------- Aplicação ---------- */
+.app {
+  text-align: center;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+}
+
+/* ---------- Cabeçalho Centralizado ---------- */
+.page-header {
+  margin-bottom: 1rem;
+  text-align: center; /* Centraliza todo o conteúdo */
+}
+
+.title-and-icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centraliza horizontalmente */
+  gap: 15px;
+  margin-bottom: 0.5rem;
+}
+
+.page-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0; /* Remove margens para melhor controle */
+}
+
+.page-subtitle {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #d4d4d4;
+  max-width: 600px;
+  margin: 0 auto 1rem auto; /* Centraliza e dá espaço abaixo */
+  text-align: center; /* Garante que o texto fique centralizado */
+}
+
+/* ---------- Barra de pesquisa melhorada ---------- */
+.search-bar-simple {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0 3rem 0;
+}
+
+.search-input-simple {
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem 1.5rem;
+  border: 2px solid #3a3f7d;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.search-input-simple:focus {
+  outline: none;
+  border-color: #5056a5;
+  box-shadow: 0 0 20px rgba(80, 86, 165, 0.6);
+  transform: scale(1.02);
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.search-input-simple::placeholder {
+  color: #ccc;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Estilo e Animação do Ícone Giratório */
+.rotating-icon {
+  width: 50px;
+  height: 50px;
+  animation: spin 8s linear infinite;
+  filter: drop-shadow(0 0 5px rgba(255, 215, 0, 0.5));
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* ---------- Cards ---------- */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+/* ---------- Mensagem sem resultados ---------- */
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+/* ---------- Responsividade ---------- */
+@media (max-width: 768px) {
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .title-and-icon-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-input-simple {
+    max-width: 100%;
+    padding: 0.9rem 1.2rem;
+    font-size: 1rem;
+  }
+}

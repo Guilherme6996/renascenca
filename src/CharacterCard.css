@@ -1,0 +1,351 @@
+/* ---------- Reset e configurações base ---------- */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  background: linear-gradient(to bottom, #0f1125, #0d0d1c);
+  color: white;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* ---------- Container principal ---------- */
+.character-list-container {
+  padding: 2rem;
+}
+
+/* ---------- Barra de pesquisa simples ---------- */
+.search-bar-simple {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.search-input-simple {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  border: 2px solid #3a3f7d;
+  border-radius: 25px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.search-input-simple:focus {
+  outline: none;
+  border-color: #5056a5;
+  box-shadow: 0 0 15px rgba(80, 86, 165, 0.5);
+  transform: scale(1.02);
+}
+
+.search-input-simple::placeholder {
+  color: #aaa;
+  text-align: center;
+}
+
+/* ---------- Mensagem sem resultados ---------- */
+.no-results {
+  text-align: center;
+  padding: 3rem;
+  color: #aaa;
+  font-size: 1.2rem;
+}
+
+/* ---------- Containers ---------- */
+.card-container,
+.character-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+/* ---------- Card individual ---------- */
+.card {
+  background: #000000;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.7);
+  padding: 1rem;
+  width: 260px;
+  color: #f0f0f0;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-align: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.8);
+}
+
+/* ---------- Cards principais (5 primeiros SEM organização) ---------- */
+.main-character {
+  border: 4px solid transparent;
+  border-image: linear-gradient(to bottom, #b91c1c, #ffffff, #facc15);
+  border-image-slice: 1;
+  color: #fff;
+}
+
+/* ---------- Imagem no card ---------- */
+.card-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+/* ---------- Título e botões ---------- */
+.card h2 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  margin: 0.3rem 0;
+}
+
+.card button {
+  margin-top: 0.8rem;
+  background-color: #3a3f7d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.card button:hover {
+  background-color: #5056a5;
+}
+
+/* ---------- Modal ---------- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.modal-overlay.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal-content {
+  background-color: #000000;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 90%;
+  color: #fff;
+  display: flex;
+  gap: 1.5rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.9);
+  transform: translateY(-20px);
+  transition: transform 0.3s ease;
+  flex-direction: row;
+  align-items: center;
+}
+
+.modal-overlay.open .modal-content {
+  transform: translateY(0);
+}
+
+/* Modal principal (5 primeiros SEM organização) */
+.modal-main-character {
+  border: 4px solid transparent;
+  border-image: linear-gradient(to bottom, #b91c1c, #ffffff, #facc15);
+  border-image-slice: 1;
+  color: #fff;
+}
+
+.modal-main-character .subtitle {
+  color: #fff;
+}
+
+/* ---------- Imagem do personagem no modal ---------- */
+.modal-image {
+  width: 180px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/* Informações no modal */
+.modal-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.modal-info button {
+  margin-top: 1.5rem;
+  align-self: flex-start;
+  background-color: #3a3f7d;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.modal-info button:hover {
+  background-color: #5056a5;
+}
+
+/* ---------- DESCRIÇÃO COM QUEBRA DE LINHA ---------- */
+.subtitle {
+  font-weight: 300;
+  color: #ffffff;
+  margin-top: 0.5rem;
+  word-wrap: break-word; /* Quebra palavras longas */
+  overflow-wrap: break-word; /* Suporte moderno */
+  white-space: pre-line; /* Preserva quebras de linha e quebra automaticamente */
+  line-height: 1.5; /* Melhor espaçamento entre linhas */
+  max-height: 200px; /* Altura máxima */
+  overflow-y: auto; /* Scroll vertical se necessário */
+  padding-right: 5px; /* Espaço para o scroll */
+}
+
+/* Personaliza a scrollbar da descrição */
+.subtitle::-webkit-scrollbar {
+  width: 4px;
+}
+
+.subtitle::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+}
+
+.subtitle::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 2px;
+}
+
+.subtitle::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* ---------- Estilo por Organização ---------- */
+/* Congresso */
+.card.congresso,
+.modal-content.congresso {
+  border: 2px solid #b91c1c;
+}
+
+/* Yottsunome - BORDA BRANCA FORTE */
+.card.yottsunome,
+.modal-content.yottsunome {
+  border: 2px solid #ffffff !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+/* Máfia */
+.card.máfia,
+.card.mafia,
+.modal-content.máfia,
+.modal-content.mafia {
+  border: 2px solid #facc15;
+}
+
+/* Noroi */
+.card.noroi,
+.modal-content.noroi {
+  border: 2px solid #000;
+  background: #111;
+}
+
+/* NBF */
+.card.nbf,
+.modal-content.nbf {
+  border: 2px solid #06b6d4;
+}
+
+/* Nenhum - BORDA CINZA SUAVE */
+.card.nenhum,
+.modal-content.nenhum {
+  border: 2px solid #888888 !important;
+  background-color: #000000 !important; /* Mantém o fundo preto */
+}
+
+/* Garante especificidade */
+div.card.yottsunome {
+  border: 2px solid #ffffff !important;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+div.card.nenhum {
+  border: 2px solid #888888 !important;
+  background-color: #000000 !important;
+}
+
+/* ---------- Responsividade ---------- */
+@media (max-width: 768px) {
+  .character-list-container {
+    padding: 1rem;
+  }
+  
+  .search-input-simple {
+    max-width: 100%;
+  }
+
+  .modal-content,
+  .modal-main-character {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .modal-info {
+    align-items: center;
+    text-align: center;
+  }
+
+  .modal-info button {
+    align-self: center;
+  }
+
+  .modal-image {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  /* Ajuste da descrição no mobile */
+  .subtitle {
+    text-align: center;
+    max-height: 150px;
+  }
+}
+
+/* ---------- Estados de foco para acessibilidade ---------- */
+.card button:focus,
+.modal-info button:focus,
+.search-input-simple:focus {
+  outline: 2px solid #3a3f7d;
+  outline-offset: 2px;
+}
+
+/* ---------- Animações suaves ---------- */
+.card,
+.modal-content {
+  transition: all 0.3s ease;
+}

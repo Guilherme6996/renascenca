@@ -56,7 +56,11 @@ const imageMap = {
   cheng: "/images/cheng.png",
   sapphire: "/images/sapphire.png",
   luna: "/images/luna.png",
-  victor: "/images/victor.png",
+  // VICTOR COM SISTEMA HÍBRIDO (GIF + PNG)
+  victor: {
+    gif: "/images/victor.gif",
+    png: "/images/victor.png"
+  },
   cordelia: "/images/cordelia.png",
   burnice: "/images/burnice.png",
   pompey: "/images/pompey.png",
@@ -98,18 +102,24 @@ const imageMap = {
 function App() {
   const [characters, setCharacters] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
+  const [loading, setLoading] = useState(true);
 
-  // Função melhorada para obter imagens
-  const getImagePath = (imageName) => {
+  // Função com sistema híbrido - apenas para o Victor
+  const getImagePath = (imageName, preferGif = true) => {
     if (!imageName) return "/images/default.png";
     
     const cleanName = imageName.toLowerCase().trim();
-    
-    // Verifica se a imagem existe no mapeamento
     const mappedPath = imageMap[cleanName];
-    if (mappedPath) return mappedPath;
     
-    return "/images/default.png";
+    if (!mappedPath) return "/images/default.png";
+    
+    // Sistema híbrido apenas para o Victor
+    if (cleanName === 'victor' && typeof mappedPath === 'object') {
+      return preferGif ? mappedPath.gif : mappedPath.png;
+    }
+    
+    // Para todos os outros personagens, retorna a string normal
+    return mappedPath;
   };
 
   useEffect(() => {
@@ -117,12 +127,15 @@ function App() {
       .then((res) => res.json())
       .then((data) => {
         console.log("Dados carregados:", data.characters);
-        setCharacters(data.characters);
+        setCharacters(data.characters || []);
+        setLoading(false);
       })
-      .catch((err) => console.error("Erro ao carregar JSON:", err));
+      .catch((err) => {
+        console.error("Erro ao carregar JSON:", err);
+        setLoading(false);
+      });
   }, []);
 
-  // Filtra os personagens baseado na pesquisa
   const filteredCharacters = characters.filter(character => {
     if (!character || !character.nome) return false;
     return character.nome.toLowerCase().includes(searchTerm.toLowerCase());
@@ -146,7 +159,6 @@ function App() {
           Finalmente fiz esse site lesgo
         </p>
         
-        {/* Barra de pesquisa */}
         <div className="search-bar-simple">
           <input
             type="text"
@@ -158,10 +170,16 @@ function App() {
         </div>
       </div>
 
+      {loading && (
+        <div className="loading">
+          <p>Carregando personagens...</p>
+        </div>
+      )}
+
       <div className="card-container">
         {filteredCharacters.map((char, index) => (
           <CharacterCard
-            key={char.id}
+            key={char.id || index}
             nome={char.nome}
             altura={char.altura}
             organizacao={char.organização}
@@ -172,10 +190,15 @@ function App() {
         ))}
       </div>
 
-      {/* Mensagem quando não há resultados */}
-      {filteredCharacters.length === 0 && characters.length > 0 && (
+      {!loading && filteredCharacters.length === 0 && characters.length > 0 && (
         <div className="no-results">
           <p>Nenhum personagem encontrado.</p>
+        </div>
+      )}
+
+      {!loading && characters.length === 0 && (
+        <div className="no-results">
+          <p>Nenhum personagem carregado.</p>
         </div>
       )}
     </div>

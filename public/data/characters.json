@@ -1,0 +1,1435 @@
+{
+  "characters": [
+    {
+      "id": 1,
+      "nome": "Charles Batista",
+      "altura": 1.62,
+      "organização": "Congresso",
+      "descricao": "gay imundo fudido, nossa senhora.",
+      "imagem": "charles"
+    },
+    {
+      "id": 2,
+      "nome": "Vander Almerick",
+      "altura": 1.86,
+      "organização": "Congresso",
+      "descricao": "Da neve a industrialização.",
+      "imagem": "vander"
+    },
+    {
+      "id": 3,
+      "nome": "Ryujin Yamamoto",
+      "altura": "-7,00 abaixo da terra (1.73)",
+      "organização": "Congresso",
+      "descricao": "GÊNIO ALÉM DO SEU TEMPO.",
+      "imagem": "ryujin"
+    },
+    {
+      "id": 4,
+      "nome": "Oliver/LittlePain",
+      "altura": "1.80",
+      "organização": "Congresso",
+      "descricao": "Homem Potencial.",
+      "imagem": "alden"
+    },
+    {
+      "id": 5,
+      "nome": "Elaine Gregory",
+      "altura": 1.76,
+      "organização": "Congresso",
+      "descricao": "genia.",
+      "imagem": "elaine"
+    },
+    {
+      "id": 6,
+      "nome": "Gojo Satoru",
+      "altura": "1,93",
+      "organização": "Congresso",
+      "descricao": "entre o ceu e a terra eu sou natural.",
+      "imagem": "gojo"
+    },
+    {
+      "id": 7,
+      "nome": "Hugo Perlman",
+      "altura": 1.73,
+      "organização": "Congresso",
+      "descricao": "lenda, pai pros que não tiveram.",
+      "imagem": "hugo"
+    },
+    {
+      "id": 8,
+      "nome": "Dante Oishi",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "sem comentários.",
+      "imagem": "dante"
+    },
+    {
+      "id": 9,
+      "nome": "Lorenzo Ontreviz Batista",
+      "altura": "1.90",
+      "organização": "Cidadão",
+      "descricao": "cara é pika, estilista foda, só teve filho com outra mulher nada dms.",
+      "imagem": "lorenzo"
+    },
+    {
+      "id": 10,
+      "nome": "Arthur Clint Morgan BlackHand",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "era pra ta morto.",
+      "imagem": "arthur"
+    },
+    {
+      "id": 11,
+      "nome": "Boris Sidorov",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "filho da puta que invade terreno.",
+      "imagem": "boris"
+    },
+    {
+      "id": 12,
+      "nome": "诚信 (Chéng Xìn)",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "uma ótima lider, pena que subimos de cargo.",
+      "imagem": "cheng"
+    },
+    {
+      "id": 13,
+      "nome": "Luna ?",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "Líder do Congresso, fala Angebrical mó brisa do krl.",
+      "imagem": "luna"
+    },
+    {
+      "id": 14,
+      "nome": "Cordelia Arcori",
+      "altura": "1.95",
+      "organização": "Congresso",
+      "descricao": "Lider do esquadrão de Agrona e lider dos olímpicos também, tia da elaine que ama muito.",
+      "imagem": "cordelia"
+    },
+    {
+      "id": 15,
+      "nome": "Pompey",
+      "altura": "1.90",
+      "organização": "Congresso",
+      "descricao": "AURA, pai do oliver?.",
+      "imagem": "pompey"
+    },
+    {
+      "id": 16,
+      "nome": "Cear",
+      "altura": "1.86",
+      "organização": "Congresso",
+      "descricao": "Soldado Elite do Congresso, hater n°1 do vander.",
+      "imagem": "cear"
+    },
+    {
+      "id": 17,
+      "nome": "Laura Batista",
+      "altura": "1.85",
+      "organização": "Congresso",
+      "descricao": "O charles ganha atualmente.",
+      "imagem": "laura"
+    },
+    {
+      "id": 18,
+      "nome": "Gio EiSulivi",
+      "altura": "1.68",
+      "organização": "Congresso",
+      "descricao": "Possivel filho bastardo do lorenzo.",
+      "imagem": "gio"
+    },
+    {
+      "id": 19,
+      "nome": "Amadeus",
+      "altura": "1.77",
+      "organização": "Congresso",
+      "descricao": "suicidio.",
+      "imagem": "amadeus"
+    },
+    {
+      "id": 20,
+      "nome": "Nokia Oriana",
+      "altura": "1.62",
+      "organização": "Congresso",
+      "descricao": "Conselheira da miopia e astigmatismo.",
+      "imagem": "nokia"
+    },
+    {
+      "id": 21,
+      "nome": "Sapphire Nerida",
+      "altura": "1.89",
+      "organização": "Congresso",
+      "descricao": "Faz isso tudo pela filha.",
+      "imagem": "sapphire"
+    },
+    {
+      "id": 22,
+      "nome": "Itami Kawaki",
+      "altura": "1.84",
+      "organização": "Congresso",
+      "descricao": ".",
+      "imagem": "itami"
+    },
+    {
+      "id": 23,
+      "nome": "Kiki",
+      "altura": "1.77",
+      "organização": "GIWYBXE NI TAS",
+      "descricao": "qiqi com k.",
+      "imagem": "kiki"
+    },
+    {
+      "id": 24,
+      "nome": "Rosaria Kopi",
+      "altura": "1,79",
+      "organização": "Congresso",
+      "descricao": "Copia e cola mais forte.",
+      "imagem": "rosaria"
+    },
+    {
+      "id": 25,
+      "nome": "Cicada",
+      "altura": "1.95",
+      "organização": "Congresso",
+      "descricao": "Receptaculo da praga, controla doença e traumatizo o alden.",
+      "imagem": "cicada"
+    },
+    {
+      "id": 26,
+      "nome": "Willis Tunber",
+      "altura": "1.87",
+      "organização": "Congresso",
+      "descricao": "Olimpico Vibrante.",
+      "imagem": "willis"
+    },
+    {
+      "id": 27,
+      "nome": "Frederic Godwin",
+      "altura": "1.86",
+      "organização": "Congresso",
+      "descricao": "Goat, alpha, sigma, monstro, craque, pika, fera, top, brabo, based, chad, Peak, legend, king, Boss, top g, w, god tier, mito, gênio, elite, prime, cria, dono do morro, patrão, aura, melhor que a quanxi, monstro enjaulado, galã, pegador, pikao, trajado, máquina, titã, pimbador, resenha, gente boa, campeão, tigrão, gênio, auge da evolução humana, mestre, domador, caçador, gente boa, foda, fodao, fodastico, gigante, imparável, crack, carismático, fodinha, puta que pariu, cinema, MORTO.",
+      "imagem": "frederic"
+    },
+    {
+      "id": 28,
+      "nome": "Phantom Pain",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "Causa dor fantasma✋🤚, não fala nada.",
+      "imagem": "phantom"
+    },
+    {
+      "id": 29,
+      "nome": "Boom Box",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "olímpico MUSICO MT FODA.",
+      "imagem": "boom"
+    },
+    {
+      "id": 30,
+      "nome": "Gabriel Liley",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "olimpico com uma guitarra mt foda.",
+      "imagem": "gabriel"
+    },
+    {
+      "id": 31,
+      "nome": "Quanxi",
+      "altura": "1.97",
+      "organização": "Congresso",
+      "descricao": "Faz de tudo, salva todos, e tem uns detalhe esquisito, mas todos amamos.",
+      "imagem": "quanxi"
+    },
+    {
+      "id": 32,
+      "nome": "?(Matriarca)",
+      "altura": "1.78",
+      "organização": "GIWYBXE NI TAS",
+      "descricao": "capaz de utilizar barreira negra, bem misteriosa também.",
+      "imagem": "matriarca"
+    },
+    {
+      "id": 33,
+      "nome": "Hitsujikai",
+      "altura": "1.90",
+      "organização": "GIWYBXE NI TAS",
+      "descricao": "Pastor sempre ajuda nois, cara muito foda.",
+      "imagem": "pastor"
+    },
+    {
+      "id": 34,
+      "nome": "Aprendiz/Anbiru",
+      "altura": "2,30",
+      "organização": "GIWYBXE NI TAS",
+      "descricao": "nah i'd win.",
+      "imagem": "anbiru"
+    },
+    {
+      "id": 35,
+      "nome": "Natasha Senaviev",
+      "altura": "?",
+      "organização": "Misteriosos",
+      "descricao": "Who is She???.",
+      "imagem": "natasha"
+    },
+    {
+      "id": 36,
+      "nome": "Lumi Fufi",
+      "altura": "?",
+      "organização": "GIWYBXE NI TAS",
+      "descricao": "ela é daora, e usa uma tecnologia ROUBADA OK? NÃO É DELA.",
+      "imagem": "lumi"
+    },
+    {
+      "id": 37,
+      "nome": "Delilah Sasaki",
+      "altura": "1.82",
+      "organização": "GIWYBXE NI TAS",
+      "descricao": "Filhe rebelde, que força a copiar movimentos, roberto deu fumble.",
+      "imagem": "delilah"
+    },
+    {
+      "id": 38,
+      "nome": "Shoko Iori",
+      "altura": "?",
+      "organização": "GIWYBXE NI TAS",
+      "descricao": "Médica muito pika, ex-modelo.",
+      "imagem": "shoko"
+    },
+    {
+      "id": 39,
+      "nome": "Yuki",
+      "altura": "?",
+      "organização": "GIWYBXE NI TAS",
+      "descricao": "?.",
+      "imagem": "yuki"
+    },
+    {
+      "id": 40,
+      "nome": "Kaizo",
+      "altura": "?",
+      "organização": "Livraria",
+      "descricao": "fudido atrapalhou a missão, dirige mal ainda fdp.",
+      "imagem": "kaizo"
+    },
+    {
+      "id": 41,
+      "nome": "Luka Lilitus II",
+      "altura": "1,73",
+      "organização": "Livraria",
+      "descricao": "Candidato a filho bastardo também.",
+      "imagem": "luka"
+    },
+    {
+      "id": 42,
+      "nome": "Flint Clint Morgan BlackHand",
+      "altura": "1.87",
+      "organização": "Livraria",
+      "descricao": "Amigo do billy foda e anda com o molho",
+      "imagem": "flint"
+    },
+    {
+      "id": 43,
+      "nome": "Ally Kali",
+      "altura": "1.50",
+      "organização": "Cidadão",
+      "descricao": "anã forte do caralho, desajeitada e timida.",
+      "imagem": "ally"
+    },
+    {
+      "id": 44,
+      "nome": "Mila ?",
+      "altura": "1.81",
+      "organização": "Livraria",
+      "descricao": "Fumante, boxeadora, espadachim e não fala muito.",
+      "imagem": "mila"
+    },
+    {
+      "id": 45,
+      "nome": "Takeru",
+      "altura": "1.89",
+      "organização": "Livraria",
+      "descricao": "GOAT.",
+      "imagem": "takeru"
+    },
+    {
+      "id": 46,
+      "nome": "Ayumi Rosemary",
+      "altura": "1.92",
+      "organização": "Livraria",
+      "descricao": "Manipula Sangue.",
+      "imagem": "ayumi"
+    },
+    {
+      "id": 47,
+      "nome": "Vanessa Vicente Norogyami Giraty",
+      "altura": "1.90",
+      "organização": "Livraria",
+      "descricao": "Ajudou nois a sair da prision, ajudou nois a pegar os poder, e tambem nos proporcionou a veldora ai.",
+      "imagem": "vanessa"
+    },
+    {
+      "id": 48,
+      "nome": "Elleonore Helena",
+      "altura": "?",
+      "organização": "Livraria",
+      "descricao": "Empregada do choquinho,GOAT ⚡,Nascida em Paris.",
+      "imagem": "elleonore"
+    },
+    {
+      "id": 49,
+      "nome": "Bellatrix Cacinni",
+      "altura": "1,55",
+      "organização": "Cidadão",
+      "descricao": "Filha da putinha, Fofa do Caralho.",
+      "imagem": "bella"
+    },
+    {
+      "id": 50,
+      "nome": "Rebecca Vincente",
+      "altura": "1.77",
+      "organização": "Livraria",
+      "descricao": "Filha da vanessa.",
+      "imagem": "rebecca"
+    },
+    {
+      "id": 51,
+      "nome": "?(emi)",
+      "altura": "1.69",
+      "organização": "Livraria",
+      "descricao": "Cria godzilla, uma gênia engenheira.",
+      "imagem": "emi"
+    },
+    {
+      "id": 52,
+      "nome": "Nomi Naomi",
+      "altura": "?",
+      "organização": "Tribunal Tácito",
+      "descricao": "Capitã da NBF.",
+      "imagem": "nomi"
+    },
+    {
+      "id": 53,
+      "nome": "Shinju Natsuki",
+      "altura": "?",
+      "organização": "Tribunal Tácito",
+      "descricao": "Subchefe da NBF.",
+      "imagem": "shinju"
+    },
+    {
+      "id": 54,
+      "nome": "Tomoya Tokyo",
+      "altura": "?",
+      "organização": "Tribunal Tácito",
+      "descricao": "Oficial Executivo da NBF.",
+      "imagem": "tomoya"
+    },
+    {
+      "id": 55,
+      "nome": "Sayori",
+      "altura": "?",
+      "organização": "Tribunal Tácito",
+      "descricao": "Oficial Executivo da NBF.",
+      "imagem": "sayori"
+    },
+    {
+      "id": 56,
+      "nome": "Doutor Victor Von Doom",
+      "altura": "1.79",
+      "organização": "Noroi",
+      "descricao": "Doutor KING VON DOOM.",
+      "imagem": "victor"
+    },
+    {
+      "id": 57,
+      "nome": "Goru",
+      "altura": "1.85",
+      "organização": "Noroi",
+      "descricao": "Ex-membro da yottsunome, trabalhou paras as 2 grandes corporações.",
+      "imagem": "goru"
+    },
+    {
+      "id": 58,
+      "nome": "Prometheus Baphomet",
+      "altura": "1.84",
+      "organização": "Noroi",
+      "descricao": "Não apareça na minha frente filho da puta imunda, jurado de morte.",
+      "imagem": "tf"
+    },
+    {
+      "id": 59,
+      "nome": "Tsumi Fukenkō",
+      "altura": "?",
+      "organização": "Noroi",
+      "descricao": "morra².",
+      "imagem": "tsumi"
+    },
+    {
+      "id": 60,
+      "nome": "Theseus Guinevere",
+      "altura": "?",
+      "organização": "Tribunal Tácito",
+      "descricao": "Ministro do Tribunal Tácito .",
+      "imagem": "theseus"
+    },
+    {
+      "id": 61,
+      "nome": "Naya Guinevere",
+      "altura": "?",
+      "organização": "Tribunal Tácito",
+      "descricao": "Filha do Theseus.",
+      "imagem": "naya"
+    },
+    {
+      "id": 62,
+      "nome": "Emma Von Karma",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "Saul Goodman mulher K, nos proporcionou dinheiro pra krl slk.",
+      "imagem": "emma"
+    },
+    {
+      "id": 63,
+      "nome": "Angelica Arcori",
+      "altura": "1,89",
+      "organização": "Tribunal Tácito",
+      "descricao": "?.",
+      "imagem": "angelica"
+    },
+    {
+      "id": 64,
+      "nome": "Dona Kimika",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "Dona da lojinha de gomi.",
+      "imagem": "kimika"
+    },
+    {
+      "id": 65,
+      "nome": "Kiwi",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "sla, morta.",
+      "imagem": "kiwi"
+    },
+    {
+      "id": 66,
+      "nome": "Doc",
+      "altura": "1,61",
+      "organização": "Cidadão",
+      "descricao": "Medicânico de gomi, the OG.",
+      "imagem": "doc"
+    },
+    {
+      "id": 67,
+      "nome": "Osluer Pietrovk",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "Bigode 2.",
+      "imagem": "osluer"
+    },
+    {
+      "id": 68,
+      "nome": "Reiko Browly",
+      "altura": "1,87",
+      "organização": "Cidadão",
+      "descricao": "Cariani mais forte e mais pika.",
+      "imagem": "reiko"
+    },
+    {
+      "id": 69,
+      "nome": "Sigma",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "goat.",
+      "imagem": "sigma"
+    },
+    {
+      "id": 70,
+      "nome": "Elliot",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "Dono da lojinha e dono do goat.",
+      "imagem": "elliot"
+    },
+    {
+      "id": 71,
+      "nome": "Viktor Vektor",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "Medicânico foda de shijeka, ex-lutador.",
+      "imagem": "viktor"
+    },
+    {
+      "id": 72,
+      "nome": "Sayaka Sasaki",
+      "altura": "1.87",
+      "organização": "Cidadão",
+      "descricao": "Mais bem sucedida, famosa entre outras familias.",
+      "imagem": "sayaka"
+    },
+    {
+      "id": 73,
+      "nome": "Yoro Kimoto",
+      "altura": "1.90",
+      "organização": "Cidadão",
+      "descricao": "puto piranho safado",
+      "imagem": "yoro"
+    },
+    {
+      "id": 74,
+      "nome": "Okane Hani",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "irmã mais velha dos hani, adora dinheiro e homens casados.",
+      "imagem": "okane"
+    },
+    {
+      "id": 75,
+      "nome": "Fabien Leclair",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "Dono da empresa Leclair.",
+      "imagem": "fabien"
+    },
+    {
+      "id": 76,
+      "nome": "Etsu Araki",
+      "altura": "?",
+      "organização": "Arasaka",
+      "descricao": "Soldado de Elite da Facção Taka da Arasaka.",
+      "imagem": "etsu"
+    },
+    {
+      "id": 77,
+      "nome": "Emília Liliana",
+      "altura": "?",
+      "organização": "Maelstrom",
+      "descricao": "era da Maelstrom já, Ex-militech q queria vender info da empresa pra rival.",
+      "imagem": "emilia"
+    },
+    {
+      "id": 78,
+      "nome": "Beltrumon Zaiwaka",
+      "altura": "?",
+      "organização": "Arasaka",
+      "descricao": "rizz.",
+      "imagem": "beltrumon"
+    },
+    {
+      "id": 79,
+      "nome": "Yokubō Sekkusu",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "Dona de Bordel Foda.",
+      "imagem": "yokubo"
+    },
+    {
+      "id": 80,
+      "nome": "Adam Smasher",
+      "altura": "2,26",
+      "organização": "Arasaka",
+      "descricao": "To esperando o protagonismo dele.",
+      "imagem": "adam"
+    },
+    {
+      "id": 81,
+      "nome": "Francisco Batista",
+      "altura": " 1.70",
+      "organização": "Cidadão",
+      "descricao": "Meu irmao que faz arma pika. Obs:eu ganhei aquele x1",
+      "imagem": "fran"
+    },
+    {
+      "id": 82,
+      "nome": "Billy Kid",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "membro das lebres astutas, sendo o melhor de la.",
+      "imagem": "billy"
+    },
+    {
+      "id": 83,
+      "nome": "Fami",
+      "altura": "1.87",
+      "organização": "Misteriosos",
+      "descricao": "Exploradora que descobriu a ilha e que teve seu nome homenageado, fundadora do Tribunal Tácito 3.430✝️  3.500🪦.",
+      "imagem": "fami"
+    },
+    {
+      "id": 84,
+      "nome": "Cecilia Scaletta",
+      "altura": "1,74",
+      "organização": "Cidadão",
+      "descricao": "Filha da Família Scaletta,Espacialista em cibernética.",
+      "imagem": "cecilia"
+    },
+    {
+      "id": 85,
+      "nome": "Nathalie Beamount",
+      "altura": "1,45",
+      "organização": "Cidadão",
+      "descricao": "Amiga da Elaine.",
+      "imagem": "nathalie"
+    },
+    {
+      "id": 86,
+      "nome": "Olga",
+      "altura": "1.56",
+      "organização": "Cidadão",
+      "descricao": "Veterinaria, dona do gato perdido.",
+      "imagem": "olga"
+    },
+    {
+      "id": 87,
+      "nome": "Neko Arcori",
+      "altura": "1.76",
+      "organização": "Cidadão",
+      "descricao": "Esposa da Elaine.",
+      "imagem": "neko"
+    },
+    {
+      "id": 88,
+      "nome": "Myaki",
+      "altura": "2,30",
+      "organização": "GIWYBXE NI TAS",
+      "descricao": "cada dia que passa vira o gojo.",
+      "imagem": "Myaki"
+    },
+    {
+      "id": 89,
+      "nome": "Alberma Sasaki",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "?.",
+      "imagem": "alberma"
+    },
+    {
+      "id": 90,
+      "nome": "Starbright",
+      "altura": "1.72",
+      "organização": "Cidadão",
+      "descricao": "Atriz e cantora,vulgo de hana.",
+      "imagem": "star"
+    },
+    {
+      "id": 91,
+      "nome": "Burnice Burns",
+      "altura": "1.60",
+      "organização": "Gangues",
+      "descricao": "piromaniaca do caralho, membra dos punhos de prata.",
+      "imagem": "burnice"
+    },
+    {
+      "id": 92,
+      "nome": "Kyssandra Kururin",
+      "altura": "?",
+      "organização": "Misteriosos",
+      "descricao": "Criadora das cibernéticas, e ela é veia.",
+      "imagem": "kyssandra"
+    },
+    {
+      "id": 93,
+      "nome": "Lin Lie",
+      "altura": "1.89",
+      "organização": "Cidadão",
+      "descricao": "Aprendiz da quanxi e treinador de espada.",
+      "imagem": "lin"
+    },
+    {
+      "id": 94,
+      "nome": "Ayla Aiko",
+      "altura": "1.89",
+      "organização": "Misteriosos",
+      "descricao": "Primeira usuaria de magia que eu vi ó doido.",
+      "imagem": "ayla"
+    },
+    {
+      "id": 95,
+      "nome": "Livia Batista",
+      "altura": "1.75",
+      "organização": "Cidadão",
+      "descricao": "MAEZINHA FODA LEGAL TE AMO.",
+      "imagem": "livia"
+    },
+    {
+      "id": 96,
+      "nome": "Leo ?",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "Amante de carros,Pavio curto pra krl K.",
+      "imagem": "leo"
+    },
+    {
+      "id": 97,
+      "nome": "Beatriz Weller",
+      "altura": "1.75",
+      "organização": "Cidadão",
+      "descricao": "daqui a pouco descriçao do roberto.",
+      "imagem": "beatriz"
+    },{
+      "id": 98,
+      "nome": "Sagittarius Orpheus",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "filho de uma puta, ex-divindade",
+      "imagem": "sagittarius"
+    },
+    {
+      "id": 99,
+      "nome": "Sua Yoko",
+      "altura": "1,77",
+      "organização": "Congresso",
+      "descricao": "Conselheira de fogo sinistra.",
+      "imagem": "sua"
+    },
+    {
+      "id": 100,
+      "nome": "Qiqi",
+      "altura": "1,77",
+      "organização": "Congresso",
+      "descricao": "não sei diferenciar elas duas por enquanto.",
+      "imagem": "qiqi"
+    },
+     {
+      "id": 101,
+      "nome": "Ysobel Yawen",
+      "altura": "1,87",
+      "organização": "Congresso",
+      "descricao": "tem o poder do fodendo inumaki.",
+      "imagem": "ysobel"
+    },
+     {
+      "id": 102,
+      "nome": "Melman",
+      "altura": "1,80",
+      "organização": "Congresso",
+      "descricao": "favela venceu e perdeu ao mesmo tempo, pq pqp ser conselheiro e descer pra égide slk.",
+      "imagem": "melman"
+    },
+     {
+      "id": 103,
+      "nome": "Stanieslav Glaz",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "é uma égide ai k.",
+      "imagem": "Glaz"
+    },
+     {
+      "id": 104,
+      "nome": "MaoMao Ryzembeg",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "égide preguiçoso fudido, não trabalha.",
+      "imagem": "mao"
+    },
+     {
+      "id": 105,
+      "nome": "McKenzie Childebert",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "fumante do caralho.",
+      "imagem": "mckenzie"
+    },
+    {
+      "id": 106,
+      "nome": "Takara Mami",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "?.",
+      "imagem": "takara"
+    },
+    {
+      "id": 107,
+      "nome": "Trinity",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "General de divisão.",
+      "imagem": "trinity"
+    },
+    {
+      "id": 108,
+      "nome": "Kim Scarlatte",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "tem metamorfo é isso q nois sabe.",
+      "imagem": "kim"
+    },
+     {
+      "id": 109,
+      "nome": "Daisy Diller",
+      "altura": "?",
+      "organização": "Congresso",
+      "descricao": "tem contato com o tribunal tácito.",
+      "imagem": "daisy"
+    },
+     {
+      "id": 110,
+      "nome": "Kaitlyin Yang",
+      "altura": "1,75",
+      "organização": "Congresso",
+      "descricao": "suporte roubado do krl, yin yang da porra slk.",
+      "imagem": "kaitlyin"
+    },
+    {
+      "id": 111,
+      "nome": "Nobunaga Yasuke",
+      "altura": "2,07",
+      "organização": "Congresso",
+      "descricao": "Berserk que deu um pau no vander, com todos os status negativos KKKKKKKKKKKKKKKKKKKKKKKK.",
+      "imagem": "nobunaga"
+    },
+    {
+      "id": 112,
+      "nome": "Pandora",
+      "altura": "?",
+      "organização": "Noroi",
+      "descricao": "manipula polyos, tem o corpo modificado.",
+      "imagem": "makima"
+    },
+    {
+      "id": 113,
+      "nome": "Csintalan (Talan)",
+      "altura": "?",
+      "organização": "Noroi",
+      "descricao": "melhor amigo do vander.",
+      "imagem": "testa"
+    },
+    {
+      "id": 114,
+      "nome": "Lilith Sarpa",
+      "altura": "?",
+      "organização": "Arasaka",
+      "descricao": "pssssssssssssssssssssssssssssssssssssssssss.",
+      "imagem": "lilith"
+    },
+     {
+      "id": 115,
+      "nome": "Somnus Hypp",
+      "altura": "1.89",
+      "organização": "Arasaka",
+      "descricao": "zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz.",
+      "imagem": "somnus"
+    },
+    {
+      "id": 116,
+      "nome": "Scarlett Silver",
+      "altura": "1.87",
+      "organização": "Arasaka",
+      "descricao": "Dona do carro pika, facção kiji.",
+      "imagem": "silver"
+    },
+    {
+      "id": 117,
+      "nome": "Blitz",
+      "altura": "1.45",
+      "organização": "Arasaka",
+      "descricao": "Carro pika, velho o suficiente pra dar pinote.",
+      "imagem": "blitz"
+    },
+    {
+      "id": 118,
+      "nome": "Rick Roll",
+      "altura": "1.79",
+      "organização": "Arasaka",
+      "descricao": "rebelde mas segue ordem(pau mole).",
+      "imagem": "rick"
+    },
+    {
+      "id": 119,
+      "nome": "Toshiaki Tooru",
+      "altura": "1.88",
+      "organização": "Arasaka",
+      "descricao": "um dos superior da inteligencia da arasaka, faz parte da facção kiji",
+      "imagem": "tooru"
+    },
+      {
+      "id": 120,
+      "nome": "Finn Volkhard",
+      "altura": "1.87",
+      "organização": "Arasaka",
+      "descricao": "faz parte da facção kiji, lembra alguem.... esquece.",
+      "imagem": "finn"
+    },
+    {
+      "id": 121,
+      "nome": "Xiu Ying",
+      "altura": "1.60",
+      "organização": "Arasaka",
+      "descricao": "irmã do Xiao fang, faz parte da facção Kiji.",
+      "imagem": "ying"
+    },
+    {
+      "id": 122,
+      "nome": "Xiao Fang",
+      "altura": "1.80",
+      "organização": "Arasaka",
+      "descricao": "irmão da Xiu ying, faz parte da facção Taka.",
+      "imagem": "fang"
+    },
+    {
+      "id": 123,
+      "nome": "Fujimaru Mochizuki",
+      "altura": "1.75",
+      "organização": "Arasaka",
+      "descricao": "Espadachim cego tomo IK kk, Égide, faz parte da facção Kiji.",
+      "imagem": "fujimaru"
+    },
+    {
+      "id": 124,
+      "nome": "Retro",
+      "altura": "1.70",
+      "organização": "Deadsec",
+      "descricao": "Retrô um trilha rede muito foda muito foda mesmo.",
+      "imagem": "retro"
+    },
+    {
+      "id": 125,
+      "nome": "Paragon",
+      "altura": "1.80",
+      "organização": "Deadsec",
+      "descricao": "Melhor informante impossivel slk.",
+      "imagem": "paragon"
+    },
+    {
+      "id": 126,
+      "nome": "Kage",
+      "altura": "1.75",
+      "organização": "Deadsec",
+      "descricao": "SUporte com agressividade mt foda.",
+      "imagem": "kage"
+    },
+    {
+      "id": 127,
+      "nome": "Spencer",
+      "altura": "1.77",
+      "organização": "Deadsec",
+      "descricao": "Supershock, não encoste nele quando estiver brilhando, sério.",
+      "imagem": "spencer"
+    },
+      {
+      "id": 128,
+      "nome": "Daph",
+      "altura": "1.77",
+      "organização": "Deadsec",
+      "descricao": "Consegue neutralizar armas com espinhos e adora floricultura.",
+      "imagem": "daph"
+    },
+      {
+      "id": 129,
+      "nome": "Shy",
+      "altura": "1.48",
+      "organização": "Deadsec",
+      "descricao": "hacker do grupo, DAAAAAAAAAAAAAAAAMN.",
+      "imagem": "shy"
+    },
+      {
+      "id": 130,
+      "nome": "Veldora",
+      "altura": "1.77",
+      "organização": "Livraria",
+      "descricao": "vander tem inveja de sua tesoura, costureira pika.",
+      "imagem": "veldora"
+    },
+    {
+      "id": 131,
+      "nome": "Nicole Demara",
+      "altura": "?",
+      "organização": "Gangues",
+      "descricao": "Adora dinheiro mas é pobre fudida, chefe das lebres astutas.",
+      "imagem": "nicole"
+    },
+    {
+      "id": 132,
+      "nome": "Anby Demara",
+      "altura": "?",
+      "organização": "Gangues",
+      "descricao": "membra das lebres astutas, hmmmmmmmmm hamburgui.",
+      "imagem": "anby"
+    },
+      {
+      "id": 133,
+      "nome": "Brigitta Briggs",
+      "altura": "1.76",
+      "organização": "Gangues",
+      "descricao": "gentil, mas forte pra krl, membra dos punhos de prata.",
+      "imagem": "brigitta"
+    },
+    {
+      "id": 134,
+      "nome": "Spike Ozzy",
+      "altura": "1.85",
+      "organização": "Gangues",
+      "descricao": "membro dos punhos de prata, campeão invencivel e bota pika com serrinha.",
+      "imagem": "Spike"
+    },
+    {
+      "id": 136,
+      "nome": "Betty Almeida",
+      "altura": "1.51",
+      "organização": "Gangues",
+      "descricao": "membra dos punhos de prata, motorista e preguiçosa.",
+      "imagem": "betty"
+    },
+    {
+      "id": 137,
+      "nome": "Julia Baits",
+      "altura": "1.52",
+      "organização": "Gangues",
+      "descricao": "membra dos punhos de prata, pavio curto com 3 porquinhos(Paia, Lenha e Tijolinho).",
+      "imagem": "julia"
+    },
+    {
+      "id": 138,
+      "nome": "Pulchra Fellini",
+      "altura": "1.73",
+      "organização": "Gangues",
+      "descricao": "membra dos punhos de prata, mercenária furry, odeia toques, adora money.",
+      "imagem": "pulchra"
+    },
+    {
+      "id": 139,
+      "nome": "Grace RealSteel",
+      "altura": "1.75",
+      "organização": "Cidadão",
+      "descricao": "Parte da RealSteel Industries, arruma robo pa krl.",
+      "imagem": "grace"
+    },
+     {
+      "id": 140,
+      "nome": "Alfred Dottoievisk",
+      "altura": "1.90",
+      "organização": "Cidadão",
+      "descricao": "Lobo thireno, trabalha pra DDD e é cordial(adestrado).",
+      "imagem": "alfred"
+    },
+    {
+      "id": 141,
+      "nome": "tubarao drift",
+      "altura": "?",
+      "organização": "Cidadão",
+      "descricao": "Tubarão Drift.",
+      "imagem": "tubarao"
+    },
+     {
+      "id": 142,
+      "nome": "Ziggy Anubiuns",
+      "altura": "1.74",
+      "organização": "Cidadão",
+      "descricao": "Gato thireno, dedicado ao trampo, novato.",
+      "imagem": "ziggy"
+    },
+    {
+      "id": 143,
+      "nome": "Susu Satsu",
+      "altura": "1.42",
+      "organização": "Cidadão",
+      "descricao": "constructo poliça, adora bebida quente, 1 ano de idade e novata.",
+      "imagem": "susu"
+    },
+    {
+      "id": 144,
+      "nome": "Zhu Yuan",
+      "altura": "1.79",
+      "organização": "Cidadão",
+      "descricao": "Capitã do time de investigação, amante de tomates.",
+      "imagem": "zhu"
+    },
+    {
+      "id": 145,
+      "nome": "rata",
+      "altura": "1.72",
+      "organização": "Cidadão",
+      "descricao": "Trabalha disfarçada, agente secreta, bem ativa.",
+      "imagem": "rata"
+    },
+    {
+      "id": 146,
+      "nome": "Dallas",
+      "altura": "1.90",
+      "organização": "Cidadão",
+      "descricao": "Novato na equipe, consegue tocar em sangue seco e fazer um rewind da cena, tentando resolver algo inexplicavel.",
+      "imagem": "dallas"
+    },
+    {
+      "id": 147,
+      "nome": "Kyssandrinhas",
+      "altura": "1,65",
+      "organização": "Misteriosos",
+      "descricao": "androides marionestes, feitas a partir da kyssandra mais jovem.",
+      "imagem": "kyssandrinhas"
+    },
+    {
+      "id": 148,
+      "nome": "Nyx(morte)",
+      "altura": "?",
+      "organização": "Misteriosos",
+      "descricao": "morte, com um monte de clone slk.",
+      "imagem": "nyx"
+    },
+     {
+      "id": 149,
+      "nome": "caronte",
+      "altura": "?",
+      "organização": "Misteriosos",
+      "descricao": "braço direito da morte, responsavel pela passagem da alma dos mortos.",
+      "imagem": "caronte"
+    },
+     {
+      "id": 150,
+      "nome": "Astra Aiko",
+      "altura": "1.55???",
+      "organização": "Misteriosos",
+      "descricao": "timida e curiosa, pernas artifial mó pika.",
+      "imagem": "astra"
+    },
+     {
+      "id": 151,
+      "nome": "Athena Aiko",
+      "altura": "1.75",
+      "organização": "Misteriosos",
+      "descricao": "adora animais, é paciente e gosta de cantar.",
+      "imagem": "athena"
+    },
+     {
+      "id": 152,
+      "nome": "Famine",
+      "altura": "2.20",
+      "organização": "Misteriosos",
+      "descricao": "faz comida boa, tem supremacia(COM 8 HORAS DE IDADE SFD).",
+      "imagem": "famine"
+    },
+    {
+      "id": 153,
+      "nome": "Alexandra / Lexa",
+      "altura": "2.30",
+      "organização": "Misteriosos",
+      "descricao": "Celestial dos humanos, adapta a tudo e se tiver q lutar significa q fudeu.",
+      "imagem": "alexandra"
+    },
+     {
+      "id": 154,
+      "nome": "Oksanna",
+      "altura": "1.82",
+      "organização": "Misteriosos",
+      "descricao": "Yioniana, que veio do céu em nome da federação interplanetária,(ET).",
+      "imagem": "oksanna"
+    },
+    {
+      "id": 155,
+      "nome": "Peter, Logan e Max",
+      "altura": "1.87",
+      "organização": "Sem categoria",
+      "descricao": "THE MOOOOOOOOOOOOOOOOOOOOOOOOOON haunts you.",
+      "imagem": "peter"
+    },
+    {
+      "id": 156,
+      "nome": "Juri Gouda",
+      "altura": "1.69",
+      "organização": "Sem categoria",
+      "descricao": "capitã do primeiro batalhas, diciplinada e reza pra krl",
+      "imagem": "juri"
+    },
+    {
+      "id": 157,
+      "nome": "Satsuki Chinatsu",
+      "altura": "1.71",
+      "organização": "Sem categoria",
+      "descricao": "Imperadora de cryogenn, participa dos chinatsu",
+      "imagem": "satsuki"
+    },
+    {
+      "id": 158,
+      "nome": "Florian",
+      "altura": "?",
+      "organização": "Sem categoria",
+      "descricao": "Twink maldito fica me tentando.",
+      "imagem": "florian"
+    },
+     {
+      "id": 159,
+      "nome": "Hazel",
+      "altura": "1.93",
+      "organização": "Misteriosos",
+      "descricao": "Cavaleira do Apocalipse: Guerra.",
+      "imagem": "hazel"
+    },
+     {
+      "id": 160,
+      "nome": "Nitrogen (Elijah Riley)",
+      "altura": "?",
+      "organização": "Noroi",
+      "descricao": "Explode tecnologicamente.",
+      "imagem": "nitrogen"
+    },
+     {
+      "id": 161,
+      "nome": "Atomic (Maeve Riley)",
+      "altura": "1.70",
+      "organização": "Noroi",
+      "descricao": "Explode Com Sirius.",
+      "imagem": "atomic"
+    },
+    {
+      "id": 162,
+      "nome":"Tombstone",
+      "altura": "?",
+      "organização": "Noroi",
+      "descricao": "Controla Corpos.",
+      "imagem": "tombstone"
+    },
+    {
+      "id": 163,
+      "nome":"Carmen Tachyon",
+      "altura": "2.17",
+      "organização": "Noroi",
+      "descricao": "Cientista foda, rapida pra uma miséra, cavala abençoada.",
+      "imagem": "carmen"
+    },
+    {
+      "id": 164,
+      "nome":"Rednav(Vander reverso)",
+      "altura": "1.89",
+      "organização": "Noroi",
+      "descricao": "CMD/Vander.exe",
+      "imagem": "rednav"
+    },
+    {
+      "id": 165,
+      "nome":"Veronica Almerick",
+      "altura": "1.77",
+      "organização": "Cidadão",
+      "descricao": "Mãe do vander, fonfon.",
+      "imagem": "veronica"
+    },
+     {
+      "id": 166,
+      "nome":"Titi",
+      "altura": "1.69",
+      "organização": "Cidadão",
+      "descricao": "Goat².",
+      "imagem": "titi"
+    },
+    {
+      "id": 167,
+      "nome":"Nox",
+      "altura": "1.74",
+      "organização": "Congresso",
+      "descricao": "gente fina.",
+      "imagem": "nox"
+    },
+    {
+      "id": 168,
+      "nome":"Acantha Briar",
+      "altura": "1.79",
+      "organização": "Congresso",
+      "descricao": "Combatente e médica da cronos.",
+      "imagem": "briar"
+    },
+    {
+      "id": 169,
+      "nome":"Azrael",
+      "altura": "1.69",
+      "organização": "Congresso",
+      "descricao": "Suporte da cronos, transforma oponentes em rubis.",
+      "imagem": "azrael"
+    },
+    {
+      "id": 170,
+      "nome":"Nova",
+      "altura": "1.87",
+      "organização": "Congresso",
+      "descricao": "Agente de combate da Cronos, que faz os krl a 4.",
+      "imagem": "nova"
+    },
+    {
+      "id": 171,
+      "nome":"Oberon",
+      "altura": "1.89",
+      "organização": "Congresso",
+      "descricao": "Agente de combate da Cronos.",
+      "imagem": "oberon"
+    },
+    {
+      "id": 172,
+      "nome":"Luuk Herssen",
+      "altura": "1.77",
+      "organização": "Arasaka",
+      "descricao": "Ex-colega da carmen, doutor pika.",
+      "imagem": "luuk"
+    },
+    {
+      "id": 173,
+      "nome":"Solomon Luthum",
+      "altura": "1.80",
+      "organização": "Gangues",
+      "descricao": "Trabalha pra Barghest infiltrado, Thireno.",
+      "imagem": "solomon"
+    },
+    {
+      "id": 174,
+      "nome":"Raymond Ibabe",
+      "altura": "1.70",
+      "organização": "Cidadão",
+      "descricao": "Cara suspeito de terno que tava vendendo informações da Cronos.",
+      "imagem": "raymond"
+    },
+    {
+      "id": 175,
+      "nome":"Sarah Pearlman",
+      "altura": "1.77",
+      "organização": "Cidadão",
+      "descricao": "Fia do hugo, medica e advogada(slk foda).",
+      "imagem": "sarah"
+    },
+     {
+      "id": 176,
+      "nome":"Melvin Traffic",
+      "altura": "1.74",
+      "organização": "Misteriosos",
+      "descricao": "Artista musica foda que sabe tocar de tudo.",
+      "imagem": "melvin"
+    },
+    {
+      "id": 177,
+      "nome":"Pierre",
+      "altura": "1.82",
+      "organização": "Misteriosos",
+      "descricao": "Android amigo da Kyssandra.",
+      "imagem": "pierre"
+    },
+    {
+      "id": 178,
+      "nome":"X",
+      "altura": "XXX",
+      "organização": "Misteriosos",
+      "descricao": "SHHHHHHHHHHHHHHHHHHHHHHHH.",
+      "imagem": "x"
+    },
+    {
+      "id": 179,
+      "nome":"Uriel",
+      "altura": "1.77",
+      "organização": "Sem categoria",
+      "descricao": "Anjo renascido, Divindade do congresso antigo.",
+      "imagem": "uriel"
+    },
+    {
+      "id": 180,
+      "nome":"Ladrãozinho da Emma",
+      "altura": "1.60",
+      "organização": "Sem categoria",
+      "descricao": "Apanhou por dinheiro.",
+      "imagem": "ladraozinho"
+    }
+  ]
+}
